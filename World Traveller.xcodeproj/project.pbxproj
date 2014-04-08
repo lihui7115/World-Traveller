@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62BE97F7353840C2BF29D6A7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DAD770200943EBBB0559B4 /* libPods.a */; };
+		BD052E4718F42B0100023F55 /* TCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD052E4618F42B0100023F55 /* TCMapViewController.m */; };
+		BD052E4F18F42EEF00023F55 /* WorldTravellerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD052E4D18F42EEF00023F55 /* WorldTravellerModel.xcdatamodeld */; };
+		BD052E5118F42F1200023F55 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD052E5018F42F1200023F55 /* CoreData.framework */; };
+		BD052E6418F433C000023F55 /* TCRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = BD052E6318F433C000023F55 /* TCRecord.m */; };
 		BD5C06B218F426450044306F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B118F426450044306F /* Foundation.framework */; };
 		BD5C06B418F426450044306F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B318F426450044306F /* CoreGraphics.framework */; };
 		BD5C06B618F426450044306F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B518F426450044306F /* UIKit.framework */; };
@@ -14,13 +19,23 @@
 		BD5C06BE18F426450044306F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06BD18F426450044306F /* main.m */; };
 		BD5C06C218F426450044306F /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06C118F426450044306F /* TCAppDelegate.m */; };
 		BD5C06C518F426460044306F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5C06C318F426460044306F /* Main.storyboard */; };
-		BD5C06C818F426460044306F /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06C718F426460044306F /* TCViewController.m */; };
+		BD5C06C818F426460044306F /* TCListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06C718F426460044306F /* TCListViewController.m */; };
 		BD5C06CA18F426460044306F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5C06C918F426460044306F /* Images.xcassets */; };
 		BD5C06D118F426460044306F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06D018F426460044306F /* XCTest.framework */; };
 		BD5C06D218F426460044306F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B118F426450044306F /* Foundation.framework */; };
 		BD5C06D318F426460044306F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B518F426450044306F /* UIKit.framework */; };
 		BD5C06DB18F426460044306F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD5C06D918F426460044306F /* InfoPlist.strings */; };
 		BD5C06DD18F426460044306F /* World_TravellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06DC18F426460044306F /* World_TravellerTests.m */; };
+		BDC0E47A18F435820027EA68 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E47918F435820027EA68 /* Location.m */; };
+		BDC0E47D18F435820027EA68 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E47C18F435820027EA68 /* Menu.m */; };
+		BDC0E48018F435820027EA68 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E47F18F435820027EA68 /* Contact.m */; };
+		BDC0E48318F435820027EA68 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E48218F435820027EA68 /* Venue.m */; };
+		BDC0E48618F435830027EA68 /* FSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E48518F435830027EA68 /* FSCategory.m */; };
+		BDC0E48A18F437760027EA68 /* TCFourSquareSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E48918F437760027EA68 /* TCFourSquareSessionManager.m */; };
+		BDC0E48B18F43A370027EA68 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD052E4818F42C2F00023F55 /* MapKit.framework */; };
+		BDC0E48D18F43A3E0027EA68 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC0E48C18F43A3E0027EA68 /* CoreLocation.framework */; };
+		BDC0E49A18F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E49718F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m */; };
+		BDC0E49B18F43E5D0027EA68 /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E49918F43E5D0027EA68 /* AFMMRecordResponseSerializer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E1B2A393B5944AD9F6E14F6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		66DAD770200943EBBB0559B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD052E4518F42B0100023F55 /* TCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMapViewController.h; sourceTree = "<group>"; };
+		BD052E4618F42B0100023F55 /* TCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMapViewController.m; sourceTree = "<group>"; };
+		BD052E4818F42C2F00023F55 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BD052E4E18F42EEF00023F55 /* WorldTravellerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravellerModel.xcdatamodel; sourceTree = "<group>"; };
+		BD052E5018F42F1200023F55 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD052E6218F433C000023F55 /* TCRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecord.h; sourceTree = "<group>"; };
+		BD052E6318F433C000023F55 /* TCRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecord.m; sourceTree = "<group>"; };
 		BD5C06AE18F426450044306F /* World Traveller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Traveller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5C06B118F426450044306F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BD5C06B318F426450044306F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +69,31 @@
 		BD5C06C018F426450044306F /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
 		BD5C06C118F426450044306F /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
 		BD5C06C418F426460044306F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BD5C06C618F426460044306F /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
-		BD5C06C718F426460044306F /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
+		BD5C06C618F426460044306F /* TCListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCListViewController.h; sourceTree = "<group>"; };
+		BD5C06C718F426460044306F /* TCListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCListViewController.m; sourceTree = "<group>"; };
 		BD5C06C918F426460044306F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD5C06CF18F426460044306F /* World TravellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravellerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5C06D018F426460044306F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BD5C06D818F426460044306F /* World TravellerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravellerTests-Info.plist"; sourceTree = "<group>"; };
 		BD5C06DA18F426460044306F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD5C06DC18F426460044306F /* World_TravellerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravellerTests.m; sourceTree = "<group>"; };
+		BDC0E47818F435820027EA68 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		BDC0E47918F435820027EA68 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		BDC0E47B18F435820027EA68 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		BDC0E47C18F435820027EA68 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		BDC0E47E18F435820027EA68 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		BDC0E47F18F435820027EA68 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		BDC0E48118F435820027EA68 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		BDC0E48218F435820027EA68 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		BDC0E48418F435830027EA68 /* FSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCategory.h; sourceTree = "<group>"; };
+		BDC0E48518F435830027EA68 /* FSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCategory.m; sourceTree = "<group>"; };
+		BDC0E48818F437760027EA68 /* TCFourSquareSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFourSquareSessionManager.h; sourceTree = "<group>"; };
+		BDC0E48918F437760027EA68 /* TCFourSquareSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFourSquareSessionManager.m; sourceTree = "<group>"; };
+		BDC0E48C18F43A3E0027EA68 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BDC0E49618F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializationMapper.h; sourceTree = "<group>"; };
+		BDC0E49718F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializationMapper.m; sourceTree = "<group>"; };
+		BDC0E49818F43E5D0027EA68 /* AFMMRecordResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializer.h; sourceTree = "<group>"; };
+		BDC0E49918F43E5D0027EA68 /* AFMMRecordResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +101,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC0E48D18F43A3E0027EA68 /* CoreLocation.framework in Frameworks */,
+				BDC0E48B18F43A370027EA68 /* MapKit.framework in Frameworks */,
+				BD052E5118F42F1200023F55 /* CoreData.framework in Frameworks */,
 				BD5C06B418F426450044306F /* CoreGraphics.framework in Frameworks */,
 				BD5C06B618F426450044306F /* UIKit.framework in Frameworks */,
 				BD5C06B218F426450044306F /* Foundation.framework in Frameworks */,
+				62BE97F7353840C2BF29D6A7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +124,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD052E4418F428FE00023F55 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0E49518F43E5D0027EA68 /* AFMMRecordResponseSerializer */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		BD052E4A18F42E6300023F55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD052E4D18F42EEF00023F55 /* WorldTravellerModel.xcdatamodeld */,
+				BD052E6118F4336B00023F55 /* Model */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BD052E4B18F42E8E00023F55 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C06C018F426450044306F /* TCAppDelegate.h */,
+				BD5C06C118F426450044306F /* TCAppDelegate.m */,
+				BD5C06C318F426460044306F /* Main.storyboard */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		BD052E4C18F42EAF00023F55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C06C618F426460044306F /* TCListViewController.h */,
+				BD5C06C718F426460044306F /* TCListViewController.m */,
+				BD052E4518F42B0100023F55 /* TCMapViewController.h */,
+				BD052E4618F42B0100023F55 /* TCMapViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BD052E6118F4336B00023F55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD052E6218F433C000023F55 /* TCRecord.h */,
+				BD052E6318F433C000023F55 /* TCRecord.m */,
+				BDC0E48418F435830027EA68 /* FSCategory.h */,
+				BDC0E48518F435830027EA68 /* FSCategory.m */,
+				BDC0E48118F435820027EA68 /* Venue.h */,
+				BDC0E48218F435820027EA68 /* Venue.m */,
+				BDC0E47E18F435820027EA68 /* Contact.h */,
+				BDC0E47F18F435820027EA68 /* Contact.m */,
+				BDC0E47B18F435820027EA68 /* Menu.h */,
+				BDC0E47C18F435820027EA68 /* Menu.m */,
+				BDC0E47818F435820027EA68 /* Location.h */,
+				BDC0E47918F435820027EA68 /* Location.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		BD5C06A518F426450044306F = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +188,7 @@
 				BD5C06D618F426460044306F /* World TravellerTests */,
 				BD5C06B018F426450044306F /* Frameworks */,
 				BD5C06AF18F426450044306F /* Products */,
+				5E1B2A393B5944AD9F6E14F6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +204,15 @@
 		BD5C06B018F426450044306F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BDC0E48C18F43A3E0027EA68 /* CoreLocation.framework */,
+				BD052E5018F42F1200023F55 /* CoreData.framework */,
+				BD052E4818F42C2F00023F55 /* MapKit.framework */,
+				BD052E4418F428FE00023F55 /* Vendor */,
 				BD5C06B118F426450044306F /* Foundation.framework */,
 				BD5C06B318F426450044306F /* CoreGraphics.framework */,
 				BD5C06B518F426450044306F /* UIKit.framework */,
 				BD5C06D018F426460044306F /* XCTest.framework */,
+				66DAD770200943EBBB0559B4 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +220,10 @@
 		BD5C06B718F426450044306F /* World Traveller */ = {
 			isa = PBXGroup;
 			children = (
-				BD5C06C018F426450044306F /* TCAppDelegate.h */,
-				BD5C06C118F426450044306F /* TCAppDelegate.m */,
-				BD5C06C318F426460044306F /* Main.storyboard */,
-				BD5C06C618F426460044306F /* TCViewController.h */,
-				BD5C06C718F426460044306F /* TCViewController.m */,
+				BD052E4B18F42E8E00023F55 /* Initialization */,
+				BD052E4C18F42EAF00023F55 /* Views */,
+				BDC0E48718F437490027EA68 /* API */,
+				BD052E4A18F42E6300023F55 /* Model */,
 				BD5C06C918F426460044306F /* Images.xcassets */,
 				BD5C06B818F426450044306F /* Supporting Files */,
 			);
@@ -152,6 +259,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BDC0E48718F437490027EA68 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0E48818F437760027EA68 /* TCFourSquareSessionManager.h */,
+				BDC0E48918F437760027EA68 /* TCFourSquareSessionManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		BDC0E49518F43E5D0027EA68 /* AFMMRecordResponseSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0E49618F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.h */,
+				BDC0E49718F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m */,
+				BDC0E49818F43E5D0027EA68 /* AFMMRecordResponseSerializer.h */,
+				BDC0E49918F43E5D0027EA68 /* AFMMRecordResponseSerializer.m */,
+			);
+			path = AFMMRecordResponseSerializer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD5C06E018F426460044306F /* Build configuration list for PBXNativeTarget "World Traveller" */;
 			buildPhases = (
+				91B25F3BBF12431D909FB7A5 /* Check Pods Manifest.lock */,
 				BD5C06AA18F426450044306F /* Sources */,
 				BD5C06AB18F426450044306F /* Frameworks */,
 				BD5C06AC18F426450044306F /* Resources */,
+				CF911D7160A749F8ABF57EE8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,13 +374,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91B25F3BBF12431D909FB7A5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF911D7160A749F8ABF57EE8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD5C06AA18F426450044306F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD5C06C818F426460044306F /* TCViewController.m in Sources */,
+				BD052E6418F433C000023F55 /* TCRecord.m in Sources */,
+				BDC0E47A18F435820027EA68 /* Location.m in Sources */,
+				BDC0E49B18F43E5D0027EA68 /* AFMMRecordResponseSerializer.m in Sources */,
+				BDC0E48A18F437760027EA68 /* TCFourSquareSessionManager.m in Sources */,
+				BD052E4718F42B0100023F55 /* TCMapViewController.m in Sources */,
+				BDC0E48318F435820027EA68 /* Venue.m in Sources */,
+				BDC0E49A18F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m in Sources */,
+				BD5C06C818F426460044306F /* TCListViewController.m in Sources */,
+				BD052E4F18F42EEF00023F55 /* WorldTravellerModel.xcdatamodeld in Sources */,
 				BD5C06BE18F426450044306F /* main.m in Sources */,
+				BDC0E47D18F435820027EA68 /* Menu.m in Sources */,
+				BDC0E48618F435830027EA68 /* FSCategory.m in Sources */,
+				BDC0E48018F435820027EA68 /* Contact.m in Sources */,
 				BD5C06C218F426450044306F /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +547,7 @@
 		};
 		BD5C06E118F426460044306F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1B2A393B5944AD9F6E14F6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +561,7 @@
 		};
 		BD5C06E218F426460044306F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1B2A393B5944AD9F6E14F6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +632,7 @@
 				BD5C06E218F426460044306F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD5C06E318F426460044306F /* Build configuration list for PBXNativeTarget "World TravellerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,8 +641,22 @@
 				BD5C06E518F426460044306F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD052E4D18F42EEF00023F55 /* WorldTravellerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD052E4E18F42EEF00023F55 /* WorldTravellerModel.xcdatamodel */,
+			);
+			currentVersion = BD052E4E18F42EEF00023F55 /* WorldTravellerModel.xcdatamodel */;
+			path = WorldTravellerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD5C06A618F426450044306F /* Project object */;
 }

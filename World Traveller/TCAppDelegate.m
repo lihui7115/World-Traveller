@@ -13,6 +13,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"WorldTravellerModel"];     // @clh question 140408, setting coredata delegation
+    
     return YES;
 }
 							
