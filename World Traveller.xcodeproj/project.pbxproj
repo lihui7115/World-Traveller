@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5C06B218F426450044306F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B118F426450044306F /* Foundation.framework */; };
+		BD5C06B418F426450044306F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B318F426450044306F /* CoreGraphics.framework */; };
+		BD5C06B618F426450044306F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B518F426450044306F /* UIKit.framework */; };
+		BD5C06BC18F426450044306F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD5C06BA18F426450044306F /* InfoPlist.strings */; };
+		BD5C06BE18F426450044306F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06BD18F426450044306F /* main.m */; };
+		BD5C06C218F426450044306F /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06C118F426450044306F /* TCAppDelegate.m */; };
+		BD5C06C518F426460044306F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5C06C318F426460044306F /* Main.storyboard */; };
+		BD5C06C818F426460044306F /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06C718F426460044306F /* TCViewController.m */; };
+		BD5C06CA18F426460044306F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5C06C918F426460044306F /* Images.xcassets */; };
+		BD5C06D118F426460044306F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06D018F426460044306F /* XCTest.framework */; };
+		BD5C06D218F426460044306F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B118F426450044306F /* Foundation.framework */; };
+		BD5C06D318F426460044306F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C06B518F426450044306F /* UIKit.framework */; };
+		BD5C06DB18F426460044306F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD5C06D918F426460044306F /* InfoPlist.strings */; };
+		BD5C06DD18F426460044306F /* World_TravellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C06DC18F426460044306F /* World_TravellerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD5C06D418F426460044306F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5C06A618F426450044306F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5C06AD18F426450044306F;
+			remoteInfo = "World Traveller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD5C06AE18F426450044306F /* World Traveller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Traveller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5C06B118F426450044306F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD5C06B318F426450044306F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD5C06B518F426450044306F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD5C06B918F426450044306F /* World Traveller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World Traveller-Info.plist"; sourceTree = "<group>"; };
+		BD5C06BB18F426450044306F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD5C06BD18F426450044306F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD5C06BF18F426450044306F /* World Traveller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "World Traveller-Prefix.pch"; sourceTree = "<group>"; };
+		BD5C06C018F426450044306F /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		BD5C06C118F426450044306F /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		BD5C06C418F426460044306F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD5C06C618F426460044306F /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		BD5C06C718F426460044306F /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
+		BD5C06C918F426460044306F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD5C06CF18F426460044306F /* World TravellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravellerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5C06D018F426460044306F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BD5C06D818F426460044306F /* World TravellerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravellerTests-Info.plist"; sourceTree = "<group>"; };
+		BD5C06DA18F426460044306F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD5C06DC18F426460044306F /* World_TravellerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravellerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5C06AB18F426450044306F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C06B418F426450044306F /* CoreGraphics.framework in Frameworks */,
+				BD5C06B618F426450044306F /* UIKit.framework in Frameworks */,
+				BD5C06B218F426450044306F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5C06CC18F426460044306F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C06D118F426460044306F /* XCTest.framework in Frameworks */,
+				BD5C06D318F426460044306F /* UIKit.framework in Frameworks */,
+				BD5C06D218F426460044306F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5C06A518F426450044306F = {
+			isa = PBXGroup;
+			children = (
+				BD5C06B718F426450044306F /* World Traveller */,
+				BD5C06D618F426460044306F /* World TravellerTests */,
+				BD5C06B018F426450044306F /* Frameworks */,
+				BD5C06AF18F426450044306F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5C06AF18F426450044306F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C06AE18F426450044306F /* World Traveller.app */,
+				BD5C06CF18F426460044306F /* World TravellerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5C06B018F426450044306F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C06B118F426450044306F /* Foundation.framework */,
+				BD5C06B318F426450044306F /* CoreGraphics.framework */,
+				BD5C06B518F426450044306F /* UIKit.framework */,
+				BD5C06D018F426460044306F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD5C06B718F426450044306F /* World Traveller */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C06C018F426450044306F /* TCAppDelegate.h */,
+				BD5C06C118F426450044306F /* TCAppDelegate.m */,
+				BD5C06C318F426460044306F /* Main.storyboard */,
+				BD5C06C618F426460044306F /* TCViewController.h */,
+				BD5C06C718F426460044306F /* TCViewController.m */,
+				BD5C06C918F426460044306F /* Images.xcassets */,
+				BD5C06B818F426450044306F /* Supporting Files */,
+			);
+			path = "World Traveller";
+			sourceTree = "<group>";
+		};
+		BD5C06B818F426450044306F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C06B918F426450044306F /* World Traveller-Info.plist */,
+				BD5C06BA18F426450044306F /* InfoPlist.strings */,
+				BD5C06BD18F426450044306F /* main.m */,
+				BD5C06BF18F426450044306F /* World Traveller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD5C06D618F426460044306F /* World TravellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C06DC18F426460044306F /* World_TravellerTests.m */,
+				BD5C06D718F426460044306F /* Supporting Files */,
+			);
+			path = "World TravellerTests";
+			sourceTree = "<group>";
+		};
+		BD5C06D718F426460044306F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C06D818F426460044306F /* World TravellerTests-Info.plist */,
+				BD5C06D918F426460044306F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5C06AD18F426450044306F /* World Traveller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5C06E018F426460044306F /* Build configuration list for PBXNativeTarget "World Traveller" */;
+			buildPhases = (
+				BD5C06AA18F426450044306F /* Sources */,
+				BD5C06AB18F426450044306F /* Frameworks */,
+				BD5C06AC18F426450044306F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Traveller";
+			productName = "World Traveller";
+			productReference = BD5C06AE18F426450044306F /* World Traveller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5C06CE18F426460044306F /* World TravellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5C06E318F426460044306F /* Build configuration list for PBXNativeTarget "World TravellerTests" */;
+			buildPhases = (
+				BD5C06CB18F426460044306F /* Sources */,
+				BD5C06CC18F426460044306F /* Frameworks */,
+				BD5C06CD18F426460044306F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5C06D518F426460044306F /* PBXTargetDependency */,
+			);
+			name = "World TravellerTests";
+			productName = "World TravellerTests";
+			productReference = BD5C06CF18F426460044306F /* World TravellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5C06A618F426450044306F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Future Game";
+				TargetAttributes = {
+					BD5C06CE18F426460044306F = {
+						TestTargetID = BD5C06AD18F426450044306F;
+					};
+				};
+			};
+			buildConfigurationList = BD5C06A918F426450044306F /* Build configuration list for PBXProject "World Traveller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5C06A518F426450044306F;
+			productRefGroup = BD5C06AF18F426450044306F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5C06AD18F426450044306F /* World Traveller */,
+				BD5C06CE18F426460044306F /* World TravellerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5C06AC18F426450044306F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C06CA18F426460044306F /* Images.xcassets in Resources */,
+				BD5C06BC18F426450044306F /* InfoPlist.strings in Resources */,
+				BD5C06C518F426460044306F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5C06CD18F426460044306F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C06DB18F426460044306F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5C06AA18F426450044306F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C06C818F426460044306F /* TCViewController.m in Sources */,
+				BD5C06BE18F426450044306F /* main.m in Sources */,
+				BD5C06C218F426450044306F /* TCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5C06CB18F426460044306F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C06DD18F426460044306F /* World_TravellerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD5C06D518F426460044306F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5C06AD18F426450044306F /* World Traveller */;
+			targetProxy = BD5C06D418F426460044306F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD5C06BA18F426450044306F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5C06BB18F426450044306F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD5C06C318F426460044306F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5C06C418F426460044306F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD5C06D918F426460044306F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5C06DA18F426460044306F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5C06DE18F426460044306F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD5C06DF18F426460044306F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5C06E118F426460044306F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveller/World Traveller-Prefix.pch";
+				INFOPLIST_FILE = "World Traveller/World Traveller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD5C06E218F426460044306F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveller/World Traveller-Prefix.pch";
+				INFOPLIST_FILE = "World Traveller/World Traveller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD5C06E418F426460044306F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveller.app/World Traveller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveller/World Traveller-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "World TravellerTests/World TravellerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BD5C06E518F426460044306F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/World Traveller.app/World Traveller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "World Traveller/World Traveller-Prefix.pch";
+				INFOPLIST_FILE = "World TravellerTests/World TravellerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5C06A918F426450044306F /* Build configuration list for PBXProject "World Traveller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5C06DE18F426460044306F /* Debug */,
+				BD5C06DF18F426460044306F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5C06E018F426460044306F /* Build configuration list for PBXNativeTarget "World Traveller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5C06E118F426460044306F /* Debug */,
+				BD5C06E218F426460044306F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD5C06E318F426460044306F /* Build configuration list for PBXNativeTarget "World TravellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5C06E418F426460044306F /* Debug */,
+				BD5C06E518F426460044306F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5C06A618F426450044306F /* Project object */;
+}
