@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
+@import MapKit;
 #import "Venue.h"
 
 @interface TCMapViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) Venue *venue;
+//IBOutlets
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *addressLabel;
+
+- (IBAction)showDirectionsBarItemButtonPressed:(UIBarButtonItem *)sender;
 @end

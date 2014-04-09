@@ -21,6 +21,9 @@ static NSString* const kCLIENTID = @"WH0TFP5N2SF4M2QQLGXZ5RFDUVG50HZFKW0EQCGEBVY
 
 static NSString* const kCLIENTSECRET = @"LASOFUZQCPSMCY4FZAQZJEZZ0LETFKZYQXPHZHJ4FJWKU3O4";
 
+#define latitudeOffset 0.00
+#define longitudeOffset 0.00
+
 //WH0TFP5N2SF4M2QQLGXZ5RFDUVG50HZFKW0EQCGEBVYBLNEE
 //Client secret
 //LASOFUZQCPSMCY4FZAQZJEZZ0LETFKZYQXPHZHJ4FJWKU3O4
@@ -91,7 +94,8 @@ static NSString* const kCLIENTSECRET = @"LASOFUZQCPSMCY4FZAQZJEZZ0LETFKZYQXPHZHJ
     CLLocation *location = [locations lastObject];
 
     [self.locationManager stopUpdatingLocation];
-    [[TCFourSquareSessionManager sharedClient] GET:[NSString stringWithFormat:@"venues/search?ll=%f,%f", location.coordinate.latitude, location.coordinate.longitude]
+    [[TCFourSquareSessionManager sharedClient] GET:[NSString stringWithFormat:@"venues/search?ll=%f,%f",
+                                                    location.coordinate.latitude+latitudeOffset, location.coordinate.longitude+longitudeOffset]
                                         parameters:@{@"client_id" : kCLIENTID, @"client_secret" : kCLIENTSECRET ,@"v": @"20140416"}
                                            success:^(NSURLSessionDataTask *task, id responseObject) {
                                                NSLog(@"%@",responseObject);

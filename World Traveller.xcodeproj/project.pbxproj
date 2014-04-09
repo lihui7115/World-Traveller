@@ -36,6 +36,8 @@
 		BDC0E48D18F43A3E0027EA68 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC0E48C18F43A3E0027EA68 /* CoreLocation.framework */; };
 		BDC0E49A18F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E49718F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m */; };
 		BDC0E49B18F43E5D0027EA68 /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E49918F43E5D0027EA68 /* AFMMRecordResponseSerializer.m */; };
+		BDC0E49E18F592A60027EA68 /* TCDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E49D18F592A60027EA68 /* TCDirectionsViewController.m */; };
+		BDC0E4A118F5A4CF0027EA68 /* TCDirectionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E4A018F5A4CF0027EA68 /* TCDirectionsListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,10 @@
 		BDC0E49718F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializationMapper.m; sourceTree = "<group>"; };
 		BDC0E49818F43E5D0027EA68 /* AFMMRecordResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializer.h; sourceTree = "<group>"; };
 		BDC0E49918F43E5D0027EA68 /* AFMMRecordResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializer.m; sourceTree = "<group>"; };
+		BDC0E49C18F592A60027EA68 /* TCDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDirectionsViewController.h; sourceTree = "<group>"; };
+		BDC0E49D18F592A60027EA68 /* TCDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDirectionsViewController.m; sourceTree = "<group>"; };
+		BDC0E49F18F5A4CF0027EA68 /* TCDirectionsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDirectionsListViewController.h; sourceTree = "<group>"; };
+		BDC0E4A018F5A4CF0027EA68 /* TCDirectionsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDirectionsListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,10 @@
 				BD5C06C718F426460044306F /* TCListViewController.m */,
 				BD052E4518F42B0100023F55 /* TCMapViewController.h */,
 				BD052E4618F42B0100023F55 /* TCMapViewController.m */,
+				BDC0E49C18F592A60027EA68 /* TCDirectionsViewController.h */,
+				BDC0E49D18F592A60027EA68 /* TCDirectionsViewController.m */,
+				BDC0E49F18F5A4CF0027EA68 /* TCDirectionsListViewController.h */,
+				BDC0E4A018F5A4CF0027EA68 /* TCDirectionsListViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -412,7 +422,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC0E49E18F592A60027EA68 /* TCDirectionsViewController.m in Sources */,
 				BD052E6418F433C000023F55 /* TCRecord.m in Sources */,
+				BDC0E4A118F5A4CF0027EA68 /* TCDirectionsListViewController.m in Sources */,
 				BDC0E47A18F435820027EA68 /* Location.m in Sources */,
 				BDC0E49B18F43E5D0027EA68 /* AFMMRecordResponseSerializer.m in Sources */,
 				BDC0E48A18F437760027EA68 /* TCFourSquareSessionManager.m in Sources */,

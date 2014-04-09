@@ -9,6 +9,7 @@
 #import "TCMapViewController.h"
 #import "Location.h"
 #import "FSCategory.h"
+#import "TCDirectionsViewController.h"
 
 @interface TCMapViewController ()
 
@@ -29,6 +30,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.nameLabel.text = self.venue.name;
+    self.addressLabel.text = self.venue.location.address;
     
     float latitude = [self.venue.location.lat floatValue];
     float longitude = [self.venue.location.lng floatValue];
@@ -60,4 +64,15 @@
 }
 */
 
+#pragma mark - Segue
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.destinationViewController isKindOfClass:[TCDirectionsViewController class]]) {
+        TCDirectionsViewController *directionsVC = segue.destinationViewController;
+        directionsVC.venue = self.venue;
+    }
+}
+
+- (IBAction)showDirectionsBarItemButtonPressed:(UIBarButtonItem *)sender {
+    [self performSegueWithIdentifier:@"mapToDirectionsSegue" sender:nil];
+}
 @end
