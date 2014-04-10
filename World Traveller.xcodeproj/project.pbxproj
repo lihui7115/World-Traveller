@@ -38,6 +38,9 @@
 		BDC0E49B18F43E5D0027EA68 /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E49918F43E5D0027EA68 /* AFMMRecordResponseSerializer.m */; };
 		BDC0E49E18F592A60027EA68 /* TCDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E49D18F592A60027EA68 /* TCDirectionsViewController.m */; };
 		BDC0E4A118F5A4CF0027EA68 /* TCDirectionsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E4A018F5A4CF0027EA68 /* TCDirectionsListViewController.m */; };
+		BDC0E4A418F6DC640027EA68 /* TCMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC0E4A318F6DC640027EA68 /* TCMenuViewController.m */; };
+		BDD59CC918F6E8FE00034167 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD59CC718F6E8FE00034167 /* menu-icon.png */; };
+		BDD59CCA18F6E8FE00034167 /* menu-icon-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDD59CC818F6E8FE00034167 /* menu-icon-2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,10 @@
 		BDC0E49D18F592A60027EA68 /* TCDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDirectionsViewController.m; sourceTree = "<group>"; };
 		BDC0E49F18F5A4CF0027EA68 /* TCDirectionsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDirectionsListViewController.h; sourceTree = "<group>"; };
 		BDC0E4A018F5A4CF0027EA68 /* TCDirectionsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDirectionsListViewController.m; sourceTree = "<group>"; };
+		BDC0E4A218F6DC640027EA68 /* TCMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMenuViewController.h; sourceTree = "<group>"; };
+		BDC0E4A318F6DC640027EA68 /* TCMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMenuViewController.m; sourceTree = "<group>"; };
+		BDD59CC718F6E8FE00034167 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		BDD59CC818F6E8FE00034167 /* menu-icon-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon-2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +175,8 @@
 				BDC0E49D18F592A60027EA68 /* TCDirectionsViewController.m */,
 				BDC0E49F18F5A4CF0027EA68 /* TCDirectionsListViewController.h */,
 				BDC0E4A018F5A4CF0027EA68 /* TCDirectionsListViewController.m */,
+				BDC0E4A218F6DC640027EA68 /* TCMenuViewController.h */,
+				BDC0E4A318F6DC640027EA68 /* TCMenuViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -243,6 +252,8 @@
 		BD5C06B818F426450044306F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDD59CC718F6E8FE00034167 /* menu-icon.png */,
+				BDD59CC818F6E8FE00034167 /* menu-icon-2x.png */,
 				BD5C06B918F426450044306F /* World Traveller-Info.plist */,
 				BD5C06BA18F426450044306F /* InfoPlist.strings */,
 				BD5C06BD18F426450044306F /* main.m */,
@@ -371,6 +382,8 @@
 				BD5C06CA18F426460044306F /* Images.xcassets in Resources */,
 				BD5C06BC18F426450044306F /* InfoPlist.strings in Resources */,
 				BD5C06C518F426460044306F /* Main.storyboard in Resources */,
+				BDD59CCA18F6E8FE00034167 /* menu-icon-2x.png in Resources */,
+				BDD59CC918F6E8FE00034167 /* menu-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +446,7 @@
 				BDC0E49A18F43E5D0027EA68 /* AFMMRecordResponseSerializationMapper.m in Sources */,
 				BD5C06C818F426460044306F /* TCListViewController.m in Sources */,
 				BD052E4F18F42EEF00023F55 /* WorldTravellerModel.xcdatamodeld in Sources */,
+				BDC0E4A418F6DC640027EA68 /* TCMenuViewController.m in Sources */,
 				BD5C06BE18F426450044306F /* main.m in Sources */,
 				BDC0E47D18F435820027EA68 /* Menu.m in Sources */,
 				BDC0E48618F435830027EA68 /* FSCategory.m in Sources */,

@@ -14,6 +14,7 @@
 #import "Location.h"
 
 #import "TCMapViewController.h"
+#import "TCAppDelegate.h"
 
 
 
@@ -87,6 +88,19 @@ static NSString* const kCLIENTSECRET = @"LASOFUZQCPSMCY4FZAQZJEZZ0LETFKZYQXPHZHJ
 //     ];
     
     [self.locationManager startUpdatingLocation];
+}
+
+
+#pragma mark - TCAppDelegate
+// 这个函数要多个地方用到。考虑放在哪里合适？！ 140410
+- (MMDrawerController *) drawControllerFromAppDelegate {
+    TCAppDelegate *appDelegate = ((TCAppDelegate *)[[UIApplication sharedApplication] delegate]);
+    return appDelegate.drawerController;
+}
+
+- (IBAction)menuBarItemButtonPressed:(UIBarButtonItem *)sender {
+    [[self drawControllerFromAppDelegate] toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+ 
 }
 
 #pragma mark - CLLocationManagerDelegate
